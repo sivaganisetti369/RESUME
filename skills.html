@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://media.istockphoto.com/id/1388635225/photo/businessman-click-on-skills.jpg?s=612x612&w=0&k=20&c=lsCABr8nyaj9E2gFnAuo5V0V_JnGz4d43IZVheP7eoo=') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for content */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h2 {
+            color: #e63946; /* Dark red color for headings */
+        }
+
+        .skills-list {
+            margin-top: 20px;
+            list-style-type: square;
+            padding-left: 20px;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        .skills-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            transition: all 0.3s ease; /* Smooth transition */
+            cursor: pointer;
+        }
+
+        /* Hover effect for skills */
+        .skills-list li:hover {
+            background-color: #ffb703; /* Yellow background on hover */
+            color: #fff; /* White text on hover */
+            transform: translateX(10px); /* Slight horizontal shift */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for emphasis */
+        }
+
+        .back-button {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1b4f30;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer a {
+            color: #ffb703;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center py-10">
+
+    <!-- Main Content Container -->
+    <div class="container">
+
+        <!-- Skills Section -->
+        <h2 class="text-3xl font-bold text-center">Skills</h2>
+
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>CSS, HTML</li>
+            <li>C Programming</li>
+            <li>Linux Operating System</li>
+            <li>Nmap</li>
+            <li>MongoDB</li>
+            <li>Network Security</li>
+        </ul>
+
+        <!-- Back to Home Button -->
+        <a href="Home .html" class="back-button">Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Darius O'Brien | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://plus.unsplash.com/premium_photo-1681843661864-3f46bfb1a4fb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGVkdWNhdGlvbiUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for content */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #e63946; /* Dark red color for headings */
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h2 {
+            font-size: 1.75rem;
+            color: #e63946;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .back-button {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #1b4f30;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .footer a {
+            color: #ffb703;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center py-10">
+
+    <!-- Main Content Container -->
+    <div class="container max-w-4xl mx-auto">
+
+        <!-- UG Education Card -->
+        <div class="card">
+            <h2>UG Education</h2>
+            <p class="font-bold">BTech in CSE-IoT and Cybersecurity including Blockchain Technology</p>
+            <p>Sasi Institute of Technology and Engineering</p>
+            <p>September-2023 to April-2026</p>
+            <p>GPA: 7.79</p>
+        </div>
+
+        <!-- Diploma Education Card -->
+        <div class="card">
+            <h2>DIPLOMA Education</h2>
+            <p class="font-bold">Diploma in Electrical and Electronics Engineering</p>
+            <p>Smt.B. Seetha Polytechnic (VISHNU)</p>
+            <p>October-2020 to May-2023</p>
+            <p>Percentage: 70.77%</p>
+        </div>
+
+        <!-- Higher Education Card -->
+        <div class="card">
+            <h2>HIGHER Education</h2>
+            <p class="font-bold">10th Class</p>
+            <p>Z.P. High School Kalla</p>
+            <p>July-2020 to April-2021</p>
+            <p>GPA: 9.7</p>
+        </div>
+
+        <!-- Back to Home Button -->
+        <a href="Home .html" class="back-button">Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Darius O'Brien | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
+    </div>
+
+</body>
+</html>
